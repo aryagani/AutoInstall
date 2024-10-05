@@ -20,10 +20,10 @@ display_welcome() {
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
-  echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@GA PUNYA"
-  echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@AG STORE"
+  echo -e "𝙈𝙔 𝙇𝙊𝙑𝙀:"
+  echo -e "@ELSA LUSIANA"
+  echo -e "𝙈𝙔 𝙎𝙀𝙇𝙁:"
+  echo -e "@ARYA TAMVAN"
   sleep 4
   clear
 }
@@ -62,7 +62,7 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "arya" ]; then
+  if [ "$USER_TOKEN" = "modalbangsat" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Buy dulu Gih Ke AG STORE${NC}"
